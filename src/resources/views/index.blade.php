@@ -83,12 +83,12 @@
       <tr>
         <th>電話番号<span style="color:red">※</span><br>
         <span style="color:red">
-        @if($errors->has('tel1'))
-          {{$errors->first('tel1')}}
-        @elseif($errors->has('tel2'))
-          {{$errors->first('tel2')}}
-        @elseif($errors->has('tel3'))
-          {{$errors->first('tel3')}}
+        @if($errors->has('tel_first'))
+          {{$errors->first('tel_first')}}
+        @elseif($errors->has('tel_second'))
+          {{$errors->first('tel_second')}}
+        @elseif($errors->has('tel_third'))
+          {{$errors->first('tel_third')}}
         </span><br>
         @endif
         </th>
